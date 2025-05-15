@@ -18,3 +18,6 @@ MENTOR: NEELA SANTOSH
             We also wrote a testbench in Verilog to simulate the filter. A testbench is like a tester program that sends inputs to the filter and observes the outputs to check if it works properly. In the testbench, we created a clock signal and applied a few different input values over time. Some values were positive, some were zero, and some were negative to check how the filter responds in different situations. We also used a reset signal at the start to make sure everything begins from zero.
 
             After running the simulation using Icarus Verilog (a free Verilog compiler), we used GTKWave to view the results. GTKWave shows the waveforms of the signals, such as the clock, input, and output, over time. We could clearly see how the input values were shifting through the filter and how the output changed according to the inputs and coefficients. The output matched the expected values, proving that the FIR filter was working correctly.
+
+![Image](https://github.com/user-attachments/assets/a828304b-4ab1-49f8-b8a6-265c85389953)
+![Image](https://github.com/user-attachments/assets/130aa691-d9ed-4be0-a0c7-37e8588d5d19)
